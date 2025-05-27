@@ -4,16 +4,11 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/test_ssl",
+            "program": "${workspaceFolder}/build/bin/hello-world",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "environment": [
-                {
-                    "name": "LD_LIBRARY_PATH",
-                    "value": "/opt/glibc-2.31/lib:$LD_LIBRARY_PATH"
-                }
-            ],
+            "environment": [],
             "externalConsole": false,
             "preLaunchTask": "build",
             "MIMode": "gdb",
