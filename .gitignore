@@ -183,8 +183,7 @@ rules.ninja
 # Project files from IDE or editors
 
 # VS/VSCode
-.vs/
-.vscode/
+
 
 # IntelliJ/Clion
 .idea/

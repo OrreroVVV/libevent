@@ -1,0 +1,31 @@
+{
+    "configurations": [
+      {
+        "name": "Linux",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/usr/include",
+          "/usr/local/include",
+          "${workspaceFolder}/compat",
+          "${workspaceFolder}/include",
+          "${workspaceFolder}/WIN32-Code"
+        ],
+        "defines": [
+        ],
+        
+        "compilerPath": "/usr/bin/g++", // 你的编译器路径
+        "cStandard": "c11", // C标准
+        "cppStandard": "c++11", // C++标准
+        "intelliSenseMode": "linux-gcc-x64",
+        "browse": {
+          "path": [
+            "${workspaceFolder}/**"
+          ],
+          "limitSymbolsToIncludedHeaders": true,
+          "databaseFilename": ""
+        }
+      }
+    ],
+    "version": 4
+  }
+  
