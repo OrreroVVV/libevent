@@ -4,7 +4,7 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/bin/hello-world",
+            "program": "${workspaceFolder}/build/bin/test_event",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
